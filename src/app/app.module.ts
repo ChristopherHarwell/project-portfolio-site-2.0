@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
 import { NavigationButtonsComponent } from './navigation-buttons/navigation-buttons.component';
 import { ShowcaseProjectCardComponent } from './showcase-project-card/showcase-project-card.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ShowcaseProjectCardComponent } from './showcase-project-card/showcase-p
     HeaderCardComponent,
     NavigationButtonsComponent,
     ShowcaseProjectCardComponent
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
