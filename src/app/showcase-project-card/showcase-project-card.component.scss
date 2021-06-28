@@ -1,0 +1,22 @@
+.card {
+  max-width: 20%;
+  border: 1px solid black;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  margin-top: 20px;
+  img {
+    width:100%;
+    height:100%;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+  }
+  .project-description {
+    max-height: 33%;
+    margin: 1rem;
+  }
+}

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderCardComponent } from './header-card/header-card.component';
 import { NavigationButtonsComponent } from './navigation-buttons/navigation-buttons.component';
+import { ShowcaseProjectCardComponent } from './showcase-project-card/showcase-project-card.component';
 import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { CommentsComponent } from './comments/comments.component';
     AppComponent,
     HeaderCardComponent,
     NavigationButtonsComponent,
+    ShowcaseProjectCardComponent
     CommentsComponent
   ],
   imports: [
